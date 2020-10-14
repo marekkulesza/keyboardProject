@@ -24,6 +24,7 @@ document.addEventListener("keydown", function(event) {
 })
 
 This was the correct way
+
 document.addEventListener("keydown", function(event) {
   if (event.code != "KeyA" && event.code != "KeyS") {
       console.log("A Key was pressed but not 'A S D F G H I'")
