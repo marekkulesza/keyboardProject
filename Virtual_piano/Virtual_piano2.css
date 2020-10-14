@@ -1,21 +1,74 @@
-body{
+body
+{
     background-color: yellowgreen;
 }
 
-div {
+div 
+{
     text-align: center;
+    
 }
 
-.container{
-    display: flex;
-    justify-content: center;
+.container
+{
     padding-top: 10%;
 }
 
-kbd{  
+.white-keys
+{
+    display: flex;
+    justify-content: center;
+}
+
+.black-keys
+{
+    position: relative;
+}
+
+.white-keys kbd
+{  
     background-color: white;
     display: inline-block;
     padding: 4% 2%;
     font-size: 22pt;
     border: solid grey;
+}
+
+.black-keys kbd
+{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 2% 1%;
+    font-size: 22pt;
+}
+
+#W
+{
+    position: relative;
+    right: 7%;
+}
+
+#E
+{
+    position: relative;
+    right: 5%;
+}
+
+#T
+{
+    position: relative;
+    left: 3%;
+}
+
+#Y
+{
+    position: relative;
+    left: 5%;
+}
+
+#U
+{
+    position: relative;
+    left: 7%;
 }
