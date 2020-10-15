@@ -1,6 +1,6 @@
 # keyboardProject
 
-making a website that plays like a keyboard
+making a website that plays like a keyboard, minimum width for it is roughly 570 pixels.
 
 This was a project off of Jetbrains academy/ Hyperskills.org for the web developer stream
 
