@@ -7,7 +7,7 @@ This was a project off of Jetbrains academy/ Hyperskills.org for the web develop
 
 I used a python file to write some Js to save a little bit of time.
 
-![alt text](https://github.com/marekkulesza/keyboardProject/blob/main/Virtual%20Piano.PNG?raw=true)
+![alt text](https://github.com/marekkulesza/keyboardProject/blob/main/Virtual_piano/Virtual_piano.PNG?raw=true)
 
 Javascript part was annoying as I was just learning it
 
