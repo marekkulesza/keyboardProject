@@ -6,12 +6,59 @@ body
 div 
 {
     text-align: center;
-    
 }
 
 .container
 {
-    padding-top: 10%;
+    position: relative;
+    padding-top: 5em;
+}
+
+.black-keys
+{
+    position: relative;
+}
+
+.black-keys kbd
+{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 1em 0.5em;
+    font-size: 14pt;
+    position: relative;
+    top: 3.2em;
+    z-index: 2;
+}
+
+#W
+{
+    position: relative;
+    right: 7.3em;
+}
+
+#E
+{
+    position: relative;
+    right: 4.70em;
+}
+
+#T
+{
+    position: relative;
+    left: 2.1em;
+}
+
+#Y
+{
+    position: relative;
+    left: 4.7em;
+}
+
+#U
+{
+    position: relative;
+    left: 7.4em;
 }
 
 .white-keys
@@ -20,58 +67,13 @@ div
     justify-content: center;
 }
 
-.black-keys
-{
-    position: relative;
-}
-
 .white-keys kbd
 {  
     background-color: white;
     display: inline-block;
-    padding: 4% 2%;
+    padding: 2em 1em;
     font-size: 22pt;
     border: solid grey;
-    
-}
-
-.black-keys kbd
-{
-    background-color: black;
-    color: white;
-    display: inline-block;
-    padding: 2% 1%;
-    font-size: 22pt;
-    position: absolute;
-    top: 114px;
-}
-
-#W
-{
     position: relative;
-    right: 7%;
-}
-
-#E
-{
-    position: relative;
-    right: 5%;
-}
-
-#T
-{
-    position: relative;
-    left: 3%;
-}
-
-#Y
-{
-    position: relative;
-    left: 5%;
-}
-
-#U
-{
-    position: relative;
-    left: 7%;
+    z-index: 1;
 }
