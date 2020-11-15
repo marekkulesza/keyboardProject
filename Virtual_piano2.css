@@ -1,0 +1,79 @@
+body
+{
+    background-color: yellowgreen;
+}
+
+div 
+{
+    text-align: center;
+}
+
+.container
+{
+    position: relative;
+    padding-top: 5em;
+}
+
+.black-keys
+{
+    position: relative;
+}
+
+.black-keys kbd
+{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 1em 0.5em;
+    font-size: 14pt;
+    position: relative;
+    top: 3.2em;
+    z-index: 2;
+}
+
+#W
+{
+    position: relative;
+    right: 7.3em;
+}
+
+#E
+{
+    position: relative;
+    right: 4.70em;
+}
+
+#T
+{
+    position: relative;
+    left: 2.1em;
+}
+
+#Y
+{
+    position: relative;
+    left: 4.7em;
+}
+
+#U
+{
+    position: relative;
+    left: 7.4em;
+}
+
+.white-keys
+{
+    display: flex;
+    justify-content: center;
+}
+
+.white-keys kbd
+{  
+    background-color: white;
+    display: inline-block;
+    padding: 2em 1em;
+    font-size: 22pt;
+    border: solid grey;
+    position: relative;
+    z-index: 1;
+}
